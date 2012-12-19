@@ -1,0 +1,1335 @@
+/* General */
+a {
+    color: #006bdb;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    border-bottom: dotted 1px rgba(191,102,34,0)
+}
+a:hover {
+    /*color: #96daff;*/
+    color: rgb(215,127,46);
+    text-decoration: none;
+    border-color: #006bdb;
+}
+.btn {
+    font-family: "camingodos-web", sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
+
+    background-color: #96daff;
+    background-image: -moz-linear-gradient(top, #96daff 0%, #006bdb 100%);
+    background-image: -ms-linear-gradient(top, #96daff, #006bdb);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#96daff), to(#006bdb));
+    background-image: -webkit-linear-gradient(top, #96daff, #006bdb);
+    background-image: -o-linear-gradient(top, #96daff, #006bdb);
+    background-image: linear-gradient(top, #96daff, #006bdb);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#96daff', endColorstr='#006bdb', GradientType=0);
+    border-color: #e67b00 #e67b00 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+
+    border: 1px solid #006ce6;
+    color: #FFF;
+    padding: 6px 24px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+}
+.btn:hover {
+    background-color: #00aeff;
+    color: #ffffff;
+}
+
+
+/* Body */
+body {
+    background: #555 url(../img/bg-footer2.png) top left repeat;
+    font-family: "nimbus-sans", sans-serif;
+    font-weight: 400;
+    color: #555;
+    font-size: 14px;
+}
+    h1 {
+        font-family: "camingodos-web", sans-serif;
+        font-weight: 800;
+        font-size: 5em;
+        line-height: 1em;
+        padding-top: 23px;
+        clear: both;
+    }
+    h2, h5 {
+        font-family: "jubilat",sans-serif;
+        font-weight: 100;
+        font-size: 2.4em;
+        clear: both;
+        margin-top: 3px;
+        line-height: 0.9em;
+    }
+    h3 {
+        font-family: "camingodos-web", sans-serif;
+        font-weight: 100;
+        font-size: 2.8em;
+        line-height: 0.8em;
+    }
+    h4 {
+        font-family: "camingodos-web", sans-serif;
+        font-weight: 700;
+        font-size: 1.2em;
+        line-height: 1em;
+    }
+    h5 {
+        font-size: 2.8em;
+        margin: -22px 0 22px 0 !important;
+        color: #555;
+        line-height: 50px;
+        text-indent: -0.5em !important;
+    }
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-family: "nimbus-sans", sans-serif;
+        font-weight: 400;
+        font-size: 1.1em;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    ul {
+        /*list-style-image: url(../img/bullet.png);*/
+        list-style: none;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .well {
+        background: #FFF;
+        border-color: rgb(182,182,182);
+        box-shadow: inset 0 0 10px rgba(182, 182, 182, 0.5);
+    }
+
+
+/* Header */
+header {
+    padding: 170px 0 0 0;
+    background: rgb(100,100,100) url(../img/mountain.jpg) top left repeat;
+    /*height: 328px; /*causes things to not shift down when height is expanded on something else */
+    border-bottom: solid 1px rgba(0,0,0,0.25);
+    position: relative;
+}
+    header a {
+        border: none;
+    }
+    header h1,
+    header h2 {
+        text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+        color: #FFF;
+        /*padding-left: 20px;*/
+    }
+    header h1 {
+        padding-bottom: 155px;
+    }
+    header .container {
+        position: relative;
+    }
+    header img {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .the-platform header {
+        background-color: rgb(213,175,60); /* Yellow */
+        background-color: rgb(100,100,100); /* Grey */
+    }
+    .the-science header {
+        background-color: rgb(198,63,99); /* Pink */
+    }
+    .data-privacy header {
+        background-color: rgb(110,153,54); /* Green */
+    }
+    .news-and-blog header {
+        background-color: rgb(44,120,185); /* Blue */
+    }
+    .about-us header {
+        background-color: rgb(111,86,134); /* Purple */
+    }
+    /*.research header {
+        background-color: rgb(210,181,87); /* Pale Yellow
+    }*/
+
+/* Nav */
+.navbar {
+    padding: 71px 0 25px 0;
+    margin-bottom: 0;
+    position: absolute !important;
+}
+    .onthego {
+         background-color: rgba(255,255,255,0.4); url(../img/grunge_wall.png) 0 0 repeat;
+/*
+        border-bottom: solid 1px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 0 0 25px rgba(0,0,0,0.5);
+        -moz-box-shadow: 0 0 25px rgba(0,0,0,0.5);
+        box-shadow: 0 0 25px rgba(0,0,0,0.5);
+*/
+        position: fixed !important;
+        padding-top: 25px !important;
+    }
+    .home .onthego {
+        background-color: rgba(255,255,255,0.4);
+    }
+    .the-platform .onthego {
+        background-color: rgba(213,175,60,0.85); /* Yellow */
+        background-color: rgba(100,100,100,0.85); /* Grey */
+    }
+    .the-science .onthego {
+        background-color: rgba(198,63,99,0.85); /* Pink */
+    }
+    .data-privacy .onthego {
+        background-color: rgba(110,153,54,0.85); /* Green */
+    }
+    .news-and-blog .onthego {
+        background-color: rgba(44,120,185,0.85); /* Blue */
+    }
+    .about-us .onthego {
+        background-color: rgba(111,86,134,0.85); /* Purple */
+    }
+    /*.research .onthego {
+        background-color: rgba(210,181,87,0.85); /* Pale Yellow
+    }*/
+.navbar-inner {
+    padding: 0;
+    background: none;
+    filter: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.navbar .brand {
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-indent: -999em;
+    width: 170px;
+    height: 30px;
+    background: transparent url(../img/logo-ginger.png) 0 0 no-repeat;
+}
+.navbar a.pilot {
+    position: absolute;
+    right: 0;
+    top: -71px;
+    color: #ccc;
+    text-shadow: 0 -1px 0 #555;
+    font-size: 12px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    background: rgba(248,147,47,0.25);
+    padding: 0 5px 2px 5px;
+    -webkit-box-shadow: 0 1px 5px #555;
+    -moz-box-shadow: 0 1px 5px #555;
+    box-shadow: 0 1px 5px #555;
+    width: 130px;
+    text-align: center;
+    -webkit-transition: all ease-in 0.1s;
+    -moz-transition: all ease-in 0.1s;
+    -o-transition: all ease-in 0.1s;
+    -ms-transition: all ease-in 0.1s;
+    transition: all ease-in 0.1s;
+}
+    .navbar a.pilot:hover {
+        background: rgba(248,147,47,1.0);
+        color: #fff;
+    }
+    .navbar a.pilot:active {
+        -webkit-box-shadow: inset 0 1px 3px #555;
+        -moz-box-shadow: inset 0 1px 3px #555;
+        box-shadow: inset 0 1px 3px #555;
+        text-indent: 1px;
+        text-shadow: 0 -1px 0 #555;
+    }
+.navbar .nav {
+    margin: -2px 0 0 0;
+    /*clear: both;*/
+}
+    .navbar .nav > li {
+        /*border-bottom: solid 3px rgba(0,111,122,0.5);
+        padding-bottom: 7px;
+        margin-top: -18px;*/
+    }
+    .navbar .nav > li:hover,
+    .navbar .nav .active {
+
+    }
+    /*.navbar .nav > li.span2:first-child {
+        margin-left: 0;
+        margin-top: 0;
+    }*/
+        .navbar .nav > li > a {
+            /*font-family: "Open Sans", sans-serif;*/
+            font-family: "camingodos-web", sans-serif;
+            font-weight: 700;
+            font-size: 1.2em;
+            line-height: 1em;
+            padding: 0;
+            color: rgba(21,21,21,0.79);
+            text-shadow: 0 -1px 0 rgba(0,0,0,0.5);
+            border-bottom: solid 2px rgba(50,50,50,0.5);
+            -webkit-transition: border linear 0.15s, color linear 0.15s, box-shadow linear 0.15s;
+            -moz-transition: border linear 0.15s, color linear 0.15s, box-shadow linear 0.15s;
+            -o-transition: border linear 0.15s, color linear 0.15s, box-shadow linear 0.15s;
+            -ms-transition: border linear 0.15s, color linear 0.15s, box-shadow linear 0.15s;
+            transition: border linear 0.15s, color linear 0.15s, box-shadow linear 0.15s;
+            -webkit-box-shadow: 0px 1px rgba(255,255,255,0.25);
+            -moz-box-shadow: 0px 1px rgba(255,255,255,0.25);
+            box-shadow: 0px 1px rgba(255,255,255,0.25);
+        }
+        .navbar .nav > li > a > span {
+            display: block;
+            width: 39%;
+            /*padding-right: 61%;
+            border-bottom: solid 1px rgba(1,1,1,0.5);*/
+            padding-bottom: 7px;
+        }
+        /* Nav hover and active page highlighting style */
+        .navbar .nav > li > a:hover {
+            color: #ffffff;
+            border-bottom: solid 1px rgba(0,0,0,0.5);
+            -webkit-box-shadow: 0px 2px rgba(248,150,47,0.9);
+            -moz-box-shadow: 0px 2px rgba(248,150,47,0.9);
+            box-shadow: 0px 2px rgba(248,150,47,0.9);
+            background: none;
+        }
+        .navbar .nav .active > a,
+        .the-platform #the-platform-link,
+        .the-science #the-science-link,
+        .data-privacy #data-privacy-link,
+        .news-and-blog #news-and-blog-link,
+        .about-us #about-us-link {
+
+            text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+            color: rgba(0,0,0,0.65);
+
+            background: none !important;
+            border-bottom: solid 1px rgba(0,0,0,0.5);
+            -webkit-box-shadow: 0px 2px rgba(248,150,47,0.9);
+            -moz-box-shadow: 0px 2px rgba(248,150,47,0.9);
+            box-shadow: 0px 2px rgba(248,150,47,0.9);
+        }
+
+/* Content */
+#content {
+    border-top: solid 1px rgba(255,255,255,0.75);
+    border-bottom: solid 1px rgba(255, 255, 255, 1.0);
+    text-shadow: 0 1px 0 rgba(255,255,255,1.0);
+    /*padding-bottom: 98px;*/
+    background: rgb(239,239,239) url(../img/bg-tile.png) top left repeat;
+    position: relative;
+}
+    #content .box {
+        background-color: #F5F5F5;
+        border-radius: 5px;
+        border: solid 1px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 0 0 25px rgba(0,0,0,0.25);
+        -moz-box-shadow: 0 0 25px rgba(0,0,0,0.25);
+        box-shadow: 0 0 25px rgba(0,0,0,0.25);
+        padding: 36px 34px 34px 34px;
+        /*margin-top: -113px; causing problems in IE, FF, Opera */
+        position: relative;
+        top: -114px;
+        /*margin-bottom: 45px;*/
+    }
+    #content h3 {
+        color: rgba(0,106,203,1);
+        line-height: 50px;
+        /*margin-top: -16px;*/
+        margin-bottom: 23px;
+    }
+    #content h4 {
+        color: rgb(125,172,178);
+        color: rgb(75,75,75);
+        margin-bottom: 1px;
+        padding-top: 0;
+        line-height: 25px;
+        margin-top: -2px;
+    }
+    #content li {
+        padding-left: 18px;
+        font-size: 1.1em;
+        line-height: 20px;
+        background: transparent url(../img/bullet.png) 0 6px no-repeat;
+    }
+    #content .modal-header h3 {
+        margin: 0;
+    }
+
+/* Home styles */
+    .home header {
+        background-color: rgba(147,147,147,1); /* Grey */
+    }
+        .home header h1 {
+            padding-bottom: 5px;
+        }
+        .home header h2 {
+            line-height: 1.12em;
+            padding-bottom: 159px;
+        }
+            .home header h2 em {
+                border-bottom: solid 1px rgba(0,0,0,0.3);;
+                box-shadow: 0 2px 0 rgba(255,255,255,0.75);
+            }
+    .home #content .header-bar {
+        overflow: hidden;
+    }
+    .home #content .box {
+        margin-bottom: 45px;
+    }
+    .home #content h3 {
+        line-height: 25px;
+        margin-top: -8px;
+        margin-bottom: 12px;
+        font-weight: 100;
+    }
+    .home #content h4 {
+        float: left;
+    }
+    .home #content ul {
+        clear: both;
+    }
+    .home .additional {
+        margin-top: -113px;
+        margin-bottom: 40px;
+    }
+    .home .partnered-with,
+    .home .featured-in {
+        position: relative;
+    }
+    .home .carousel-dots {
+        /*left: 150px;
+        position: absolute;
+        top: 1px;*/
+        float: left;
+        margin-left: 10px;
+        margin-top: 4px;
+    }
+    .home .carousel-dots a {
+        display: block;
+        float: left;
+        padding: 4px;
+    }
+    .home .carousel-dots a span {
+        background-color: rgba(0, 0, 0, 0.15);
+
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+
+        display: block;
+        height: 6px;
+        width: 6px;
+    }
+    .home .carousel-dots a:hover span {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .home .carousel-dots .active span,
+    .home .carousel-dots .active:hover span {
+        background-color: #ff9835;
+    }
+    .home .carousel ul {
+        margin: 0;
+    }
+        .home .carousel li {
+            padding: 0 !important;
+            background: none !important;
+        }
+    .home .carousel-caption {
+        display: none;
+    }
+
+    /* Override Bootstrap's Carousel CSS to fade instead of slide. */
+    .home .carousel .item {
+        position: static;
+        -webkit-transition: 0.6s ease-in-out opacity;
+        -moz-transition: 0.6s ease-in-out opacity;
+        -ms-transition: 0.6s ease-in-out opacity;
+        -o-transition: 0.6s ease-in-out opacity;
+        transition: 0.6s ease-in-out opacity;
+    }
+    .home .carousel .next,
+    .home .carousel .prev {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }
+    .home .carousel .next.left,
+    .home .carousel .prev.right {
+        left: auto;
+        opacity: 1;
+    }
+    .home .carousel .active.left {
+        left: auto;
+        opacity: 0;
+    }
+    .home .carousel .active.right {
+        left: auto;
+        opacity: 0;
+    }
+
+/* The Platform styles */
+.the-platform h3 {
+    clear: both;
+}
+.the-platform .box .row {
+    padding-bottom: 0;
+}
+.intro {
+    /*margin-left: 0;*/
+    margin-bottom: 13px;
+}
+.the-platform hr,
+.box hr {
+    clear: both;
+    margin: 90px auto 90px auto;
+    border-bottom: dotted 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 1px 0 #FFF;
+    -moz-box-shadow: 0 1px 0 #FFF;
+    box-shadow: 0 1px 0 #FFF;
+    width: 75%;
+}
+    .the-platform .box .row:last-child {
+        margin-bottom: 0;
+        border: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .the-platform .box .btn,
+    .learn-more .box .btn {
+        margin-left: 0;
+        font-size: 1.4em;
+        padding: 10px 24px;
+    }
+    .the-platform .box .btn {
+        float: none;
+        margin: 0 auto 50px auto;
+    }
+    .the-platform .span6 {
+        text-align: center;
+    }
+    .the-platform h4 {
+        text-align: left;
+    }
+    .the-platform .box ul,
+    .contribute-to-science ul.benefits {
+        margin-bottom: 35px;
+        text-align: left;
+    }
+        .the-platform #content .benefits li,
+        .contribute-to-science #content .benefits li {
+            background: transparent url(../img/checkmark.png) 0 20px no-repeat;
+            padding-top: 20px;
+            padding-left: 32px;
+            font-size: 16px;
+        }
+            .contribute-to-science #content .benefits li {
+                padding-top: 0;
+                padding-bottom: 20px;
+                background-position: 0 0;
+            }
+        .the-platform .box ul em,
+        .contribute-to-science .benefits em {
+            font-style: normal;
+            border-bottom: solid 2px #006bdb;
+        }
+    /*.the-platform h5 {
+        font-size: 1.6em;
+        line-height: 33px;
+        margin: 17px 0 14px 0 !important;
+        padding: 0 25px;
+        text-align: center;
+        text-indent: 0 !important;
+    }
+    .the-platform .quote {
+        border-top: solid 2px #006bdb;
+        padding: 0;
+    }
+        .the-platform .quote h5:before,
+        .the-platform .quote h5:after {
+            font-family: "jubilat",sans-serif;
+            content: '\201C';
+            font-size: 80px;
+            color: #555;
+            position: absolute;
+            margin: 0 0 0 -30px;
+            padding: 12px 0 0 0;
+            font-weight: normal;
+        }
+        .the-platform .quote h5:after {
+            content: '\201D';
+            margin: 0;
+            padding: 12px 0 0 10px;
+        }*/
+    .box h5 {
+        font-size: 1.6em;
+        line-height: 33px;
+        margin: 17px 0 14px 0 !important;
+        padding: 0 25px;
+        text-align: center;
+        text-indent: 0 !important;
+    }
+    .box .quote {
+        border-top: solid 2px #006bdb;
+        padding: 0;
+    }
+        .box .quote h5:before,
+        .box .quote h5:after {
+            font-family: "jubilat",sans-serif;
+            content: '\201C';
+            font-size: 80px;
+            color: #555;
+            position: absolute;
+            padding: 12px 10px 0 10px;
+            font-weight: normal;
+            top: 30px;
+            position: relative;
+            line-height: 0;
+        }
+        .box .quote h5:after {
+            content: '\201D';
+        }
+    .box .cite {
+        color: #777;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .box .cite span {
+        display: block;
+        font-weight: bold;
+    }
+    .the-platform .screenshot {
+        -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        -webkit-border-radius: 3px 3px 0 0;
+        -moz-border-radius: 3px 3px 0 0;
+        border-radius: 3px 3px 0 0;
+        margin-top: -7px;
+        margin-bottom: 35px;
+    }
+    .the-platform .screenshot.phones {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        margin-left: -17px;
+        max-width: 108%;
+    }
+
+/* The Science styles */
+.the-science .intro {
+    margin-bottom: 0;
+}
+.the-science h3 {
+    clear: both;
+    margin-top: 41px !important;
+}
+.the-science h5 {
+    /*font-size: 1.6em;
+    line-height: 25px;
+    margin: -2px 0 4px 0 !important;*/
+}
+.the-science .quote {
+    margin-top: 23px;
+}
+    .the-science .chart p {
+        font-size: 13px;
+        padding-left: 40px;
+    }
+    .the-science .chart img {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+    .the-science .without-gingerio p {
+        background: transparent url(../img/the_science-question.png) top left no-repeat;
+    }
+    .the-science .with-gingerio p {
+        background: transparent url(../img/the_science-check.png) top left no-repeat;
+    }
+.the-science div img {
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.52);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    margin-bottom: 25px;
+}
+.the-science .papers {
+
+}
+    .the-science .papers h4 {
+        margin-top: -6px;
+        line-height: 25px;
+    }
+    .the-science .papers p {
+        margin-bottom: 35px;
+    }
+
+/* Data Privacy styles */
+.data-privacy .intro {
+    margin-bottom: 8px;
+}
+.data-privacy h3 {
+    margin-top: 0 !important;
+    margin-bottom: 1px !important;
+    line-height: 1em !important;
+}
+.data-privacy h4 {
+    margin: 0 0 60px 0 !important;
+}
+.data-privacy .quote {
+    margin-top: 12px;
+    margin-bottom: 60px;
+}
+.data-privacy h4.suggested {
+    margin-top: 0 !important;
+    margin-bottom: 4px !important;
+}
+.data-privacy .well p {
+    font-size: 1em;
+}
+.data-privacy #content ul {
+    margin-bottom: 23px;
+}
+.data-privacy #content li {
+    line-height: 21px !important;
+    margin-bottom: 4px;
+    padding: 0 !important;
+    font-size: 1em !important;
+}
+    .data-privacy #content li p {
+        padding-left: 18px;
+        font-size: 1em !important;
+    }
+    .data-privacy #content li a {
+        display: inline-block;
+        margin-left: 18px;
+        font-size: 1em !important;
+    }
+
+
+/* News & Blog styles */
+/*.news-and-blog #content .container .box {
+    margin-top: 0;
+}
+    .news-and-blog #content .container .box:first-child {
+        top: -114px;
+    }*/
+.news-and-blog .blog-post-content {
+    margin-top: 11px;
+}
+.blog-post-details h3 {
+    margin-left: 0;
+}
+.blog-post-details h4 {
+    margin-bottom: 7px;
+    padding-top: 0;
+    line-height: 25px;
+    margin-top: -3px;
+}
+.blog-post-content {
+    position: relative;
+}
+.blog-post-content img {
+    float: right;
+    max-width: none;
+    background: #ccc;
+    margin-bottom: 25px;
+}
+.blog-post-content iframe,
+.blog-post-content object {
+    max-width: 100%;
+}
+.blog-post{
+    margin-bottom: 40px;
+}
+
+/* About Us styles */
+.box h2 {
+    line-height: 38px !important;
+    margin-bottom: 23px !important;
+    margin-top: 9px !important;
+    color: #555;
+    text-shadow: none;
+}
+.box h5 {
+    text-shadow: none;
+}
+.about-us .intro {
+    clear: both;
+}
+.about-us .popover-inner {
+    /*width: 420px;*/
+    background-color: rgba(0,0,0,0.5);
+}
+    .about-us .popover-inner p {
+        font-size: 1em;
+        line-height: 20px;
+    }
+    .about-us .popover-inner h3 {
+        font-family: "camingodos-web", sans-serif;
+        font-weight: 700;
+        font-size: 1.2em;
+        line-height: 1em;
+        text-shadow: 0 1px 0 rgba(255,255,255,1.0);
+        color: #555;
+        border-color: rgba(248, 150, 47, 0.8);
+    }
+        .about-us .popover-inner h3 span {
+            font-weight: 400;
+            font-size: 0.8em !important;
+            display: block;
+            margin-top: 2px;
+        }
+    .about-us .popover .arrow {
+        border-right-color: rgba(0,0,0,0.4);
+        border-left-color: rgba(0,0,0,0.4);
+    }
+.about-us .row {
+    clear: both;
+}
+    .about-us .row .photos {
+        margin-left: 0;
+        float: right;
+        width: 900px;
+    }
+.about-us h3 {
+    clear: both;
+}
+.photo {
+    margin-bottom: 27px !important;
+}
+.photo * {
+    -webkit-transition: all 0.15s ease-in;
+    -moz-transition: all 0.15s ease-in;
+    -o-transition: all 0.15s ease-in;
+    -ms-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in;
+}
+.photo:hover {
+    cursor: help;
+}
+.photo:hover img {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75);
+    opacity: 0.75;
+}
+.photo:hover p,
+.photo:hover span {
+    color: #006bdb;
+    text-shadow: 0 1px 0 rgba(255,255,255,1.0);
+}
+.photo p {
+    margin: 0;
+    color: #555;
+    font-family: "camingodos-web", sans-serif;
+    font-weight: 700;
+    text-shadow: 0 1px 0 rgba(255,255,255,1.0);
+    font-size: 1em;
+    line-height: 1em;
+    z-index: 100;
+}
+    .photo p span {
+        font-weight: 400 !important;
+        text-shadow: 0 0 0 rgba(0,0,0,1.0);
+        display: block;
+    }
+
+/* Research styles */
+.research #content h3 {
+    font-size: 1.8em;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.research #content h4 {
+    margin-top: -4px;
+    margin-bottom: -1px;
+}
+.research .ginger-intro ul {
+    margin-bottom: 25px;
+}
+.research p.monies {
+  color: #418dff;
+  font-family: "jubilat",sans-serif;
+  font-weight: 800;
+  font-size: 4em;
+  line-height: 1em;
+  margin-bottom: 0;
+  margin-top: -6px;
+  text-shadow: 3px 3px 0 #fff, 6px 6px 0px #666, 9px 9px 0 #fff;
+}
+
+/* In the Press styles */
+.in-the-press .featured {
+    float: left;
+}
+    .in-the-press .featured .span4 a:first-child {
+        margin-top: 10px;
+        float: left;
+        display: block;
+        border: none !important;
+    }
+    .in-the-press .featured .span4 p {
+        clear: both;
+    }
+
+.in-the-press .mentions {
+    background: #eee;
+    padding: 10px;
+    margin-left: 0;
+    margin-top: -34px;
+    float: right;
+}
+    .in-the-press .mentions .span4 {
+        margin-left: 0 !important;
+    }
+    .in-the-press .mentions ul {
+        margin-top: 10px;
+    }
+    .in-the-press .mentions li {
+        background: none !important;
+        padding-left: 0 !important;
+        margin-bottom: 15px;
+    }
+
+/* Join Us styles */
+.join-us h3 {
+    margin-top: -16px !important;
+}
+.join-us h4 {
+    clear: both;
+}
+.join-us .quote {
+    border-top: 0;
+    margin-bottom: 48px;
+}
+.join-us .positions {
+    margin-bottom: 35px;
+}
+.join-us .span4 .btn {
+    margin-bottom: 20px;
+}
+
+/* Job Styles */
+.job-actions {
+    text-align: center;
+}
+
+/* Learn More styles */
+.learn-more .box .start {
+    margin-top: 50px;
+}
+
+/* Contribute to Science styles */
+.contribute-to-science .get-involved h3 {
+    margin-top: 0 !important;
+}
+
+/* 404 page */
+.page-not-found #content {
+    display: none;
+}
+
+/* EULA & Privacy Policy styles */
+.eula pre,
+.privacy-policy pre {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    word-break: normal;
+}
+
+/* Footer */
+footer {
+    border-top: solid 1px rgba(0,0,0,0.25);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    padding: 25px 0 50px 0;
+    color: #555;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.75);
+}
+    /*footer .span2:first-child {
+        margin-left: 0;
+    }*/
+    footer a {
+        color: #999;
+    }
+        footer a:hover {
+            color: #E67B00;
+            border: none;
+        }
+    footer p,
+    footer li {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    footer ul {
+        margin-bottom: 0 !important;
+        margin-top: 2px;
+    }
+        footer ul li {
+            border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+            line-height: 24px !important;
+            margin-bottom: 0 !important;
+        }
+        footer ul li:first-child {
+            border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+            -webkit-box-shadow: inset 0 -1px 0 #000;
+            -moz-box-shadow: inset 0 -1px 0 #000;
+            box-shadow: inset 0 -1px 0 #000;
+        }
+        footer ul li:last-child {
+            /*border: none;*/
+        }
+    footer p {
+        clear: both;
+        margin-bottom: 0 !important;
+    }
+        footer p span {
+            display: block;
+            font-size: 1.6em;
+            line-height: 0.8em;
+            color: #999;
+        }
+        footer .hiring {
+            /*margin: 0 0 -25px 0;*/
+        }
+         footer .hiring li {
+            border: none !important;
+            -webkit-box-shadow: none !important;
+            -moz-box-shadow: none !important;
+            box-shadow: none !important;
+         }
+        footer .hiring a {
+            display: block;
+            width: 100px;
+            height: 100px;
+            background: transparent url(../img/hiring.png) top left no-repeat;
+            text-indent: -999em;
+            border: none !important;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            border-radius: 100px;
+            /*-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);*/
+            -webkit-transition: all 0.2s linear;
+            -moz-transition: all 0.2s linear;
+            -o-transition: all 0.2s linear;
+            -ms-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+            position: relative;
+            float: right;
+        }
+            footer .hiring a:hover {
+                top: -5px;
+                -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+                -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+                box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+            }
+
+/* Responsive styles */
+@media screen and (max-width: 519px) {
+    header img {
+        display: none;
+    }
+    header .navbar .container {
+        width: 100% !important;
+    }
+        header .navbar .container .brand {
+            margin-left: 20px;
+        }
+        header .navbar .container .btn-navbar {
+            margin-right: 20px;
+        }
+    header h1 {
+        font-size: 3.8em !important;
+    }
+    header h2 {
+        font-size: 1.8em !important;
+    }
+    #content {
+        padding-bottom: 0;
+    }
+    #content h3 {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 2em;
+        line-height: 1em;
+    }
+    .home #content p {
+        margin-bottom: 15px;
+    }
+    .home #content .btn {
+        margin-bottom: 25px;
+    }
+    .home #content .box {
+        margin-bottom: 0;
+    }
+    .home #content h4 {
+        margin-top: 30px;
+    }
+    .home .carousel-dots {
+        margin-top: 34px;
+    }
+    .blog-post-content img {
+        max-width: 100%;
+    }
+    footer ul:nth-child(odd) {
+        margin-left: 0;
+        clear: left;
+    }
+    .about-us .row .photos {
+        width: auto !important;
+        float: none;
+    }
+}
+@media screen and (min-width: 520px) and (max-width: 767px) {
+    header img {
+        display: none;
+    }
+    header .navbar .container {
+        width: 100% !important;
+    }
+        header .navbar .container .brand {
+            margin-left: 20px;
+        }
+        header .navbar .container .btn-navbar {
+            margin-right: 20px;
+        }
+    #content {
+        padding-bottom: 0;
+    }
+    .home #content .btn {
+        margin-bottom: 25px;
+    }
+    footer ul:nth-child(4) {
+        margin-left: 0;
+        clear: left;
+    }
+    .about-us .row .photos {
+        width: auto !important;
+        float: none;
+    }
+    .about-us .row .photos .photo {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 784px) {
+    #content .box {
+        border-radius: 0;
+        padding-right: 29px;
+        padding-left: 30px;
+        border-left: 0;
+        border-right: 0;
+    }
+    footer .hiring a {
+        margin: 30px auto;
+        float: none;
+    }
+}
+
+/*@media (min-width: 768px) and (max-width: 979px) {*/
+@media screen and (max-width: 979px) {
+    header {
+        padding-top: 0;
+    }
+    .home header img {
+        width: 40%;
+        top: 69px;
+    }
+    header h1 {
+        font-size: 4em;
+        padding-top: 75px;
+    }
+    .home header h2 {
+        font-size: 2em;
+        line-height: 1.2em;
+        padding-bottom: 137px;
+    }
+    h3, h5 {
+        font-size: 2.4em;
+    }
+    .home #content h3 {
+        margin-bottom: 7px;
+    }
+    .navbar {
+        padding: 0;
+        background: rgba(100,100,100,0.85) !important;
+        
+        border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0px 1px rgba(255, 255, 255, 0.25);
+        -moz-box-shadow: 0px 1px rgba(255, 255, 255, 0.25);
+        box-shadow: 0px 1px rgba(255, 255, 255, 0.25);
+        }
+        .home .navbar {
+            background: rgba(76,164,162,0.85) !important;
+        }
+        .the-platform .navbar {
+            background: rgba(100,100,100,0.85) !important; /* Grey */
+        }
+        .the-science .navbar {
+            background: rgba(198,63,99,0.85) !important; /* Pink */
+        }
+        .data-privacy .navbar {
+            background: rgba(110,153,54,0.85) !important; /* Green */
+        }
+        .news-and-blog .navbar {
+            background: rgba(44,120,185,0.85) !important; /* Blue */
+        }
+        .about-us .navbar {
+            background: rgba(111,86,134,0.85) !important; /* Purple */
+        }
+        /*.research .navbar {
+            background: rgba(210,181,87,0.85) !important; /* Pale Yellow
+        }*/
+    .navbar .container {
+        width: 724px !important;
+    }
+    .navbar .nav-collapse {
+        clear: both;
+    }
+    .navbar .btn-navbar {
+        font-weight: bold;
+        padding: 6px 12px;
+    }
+    .navbar .nav {
+        margin: 0;
+    }
+    .navbar .nav > li {
+        width: 100%;
+        margin-left: 0;
+    }
+    .navbar .nav > li > a {
+        border-bottom: solid 1px rgba(89,89,89,0.77);
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        text-align: center;
+    }
+    .navbar .nav > li > a > span {
+        padding: 10px 0 10px 0;
+        width: auto;
+    }
+    .navbar .brand {
+        width: 140px;
+        height: 25px;
+        background-position: 0 -40px;
+        margin-top: 6px;
+    }
+    .navbar-fixed-top .navbar-inner {
+        padding: 5px 5px 10px 5px;
+    }
+    .navbar .btn, .navbar .btn-group {
+        margin-right: 0;
+    }
+    .navbar .container {
+        width: 100%;
+    }
+    .onthego {
+        padding-top: 0 !important;
+    }
+    #content {
+        clear: both;
+    }
+    .about-us .row .photos {
+        width: 558px;
+    }
+    .the-platform hr, .box hr {
+        margin-bottom: 45px;
+        margin-top: 45px;
+    }
+
+}
+
+/*@media (min-width: 980px) {*/
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+    .navbar .brand {
+        margin-top: 5px;
+        width: 140px;
+        height: 25px;
+        background-position: 0 -40px;
+    }
+    .navbar .nav > li > a > span {
+    }
+    header img {
+        top: 42px;
+        right: 25px;
+        width: 325px;
+    }
+    .home header h1 {
+        padding-top: 23px;
+        padding-bottom: 13px;
+    }
+    .home header h2 {
+        font-size: 2.4em;
+        padding-bottom: 146px;
+    }
+    .about-us .row .photos {
+        width: 720px;
+    }
+    .the-science .paper {
+        margin-right: 20px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .navbar a.pilot {
+        width: 160px;
+    }
+    header img {
+        top: 19px;
+        right: -30px;
+    }
+    .home header h1 {
+        padding-bottom: 25px;
+    }
+    .home header h2 {
+        padding-bottom: 171px;
+    }
+}
+
+/* less than IE9 */
+.lt-ie9 .onthego {
+        background: #7b7b7b url(../img/grunge_wall.png) 0 0 repeat;
+    }
+    .lt-ie9 .navbar .nav > li > a {
+        color: #dddddd;
+        border-bottom: solid 2px #999999;
+    }
+    .lt-ie9 .navbar .nav > li > a:hover {
+        color: #ffffff;
+        border-bottom: solid 2px #e99033;
+    }
+.lt-ie9 .home .onthego {
+    background-color: #67b2b0;
+}
+    .lt-ie9 .home header h2 {
+        font-size: 38px;
+    }
+.lt-ie9 .the-platform .onthego {
+    background-color: #7b7b7b; /* Grey */
+}
+.lt-ie9 .the-science .onthego {
+    background-color: #ce5c7a; /* Pink */
+}
+.lt-ie9 .data-privacy .onthego {
+    background-color: #84a854; /* Green */
+}
+.lt-ie9 .news-and-blog .onthego {
+    background-color: #4b8cc3; /* Blue */
+}
+.lt-ie9 .about-us .onthego {
+    background-color: #846f98; /* Purple */
+}
