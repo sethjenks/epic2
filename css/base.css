@@ -141,16 +141,16 @@ header {
         background-color: rgb(100,100,100); /* Grey */
     }
     .the-science header {
-        background-color: rgb(198,63,99); /* Pink */
+        background-color: rgb(100,100,100); /* Pink */
     }
     .data-privacy header {
-        background-color: rgb(110,153,54); /* Green */
+        background-color: rgb(100,100,100); /* Green */
     }
     .news-and-blog header {
         background-color: rgb(44,120,185); /* Blue */
     }
     .about-us header {
-        background-color: rgb(111,86,134); /* Purple */
+        background-color: rgb(100,100,100); /* Purple */
     }
     /*.research header {
         background-color: rgb(210,181,87); /* Pale Yellow
@@ -173,27 +173,30 @@ header {
         position: fixed !important;
         padding-top: 25px !important;
     }
-    .home .onthego {
+    .onthego {
+        background-color: rgba(255,255,255,0.85);
+    }
+    /*.home .onthego {
         background-color: rgba(255,255,255,0.4);
     }
     .the-platform .onthego {
-        background-color: rgba(213,175,60,0.85); /* Yellow */
-        background-color: rgba(100,100,100,0.85); /* Grey */
+        background-color: rgba(213,175,60,0.85); 
+        background-color: rgba(100,100,100,0.85); 
     }
     .the-science .onthego {
-        background-color: rgba(198,63,99,0.85); /* Pink */
+        background-color: rgba(100,100,100,0.85);
     }
     .data-privacy .onthego {
-        background-color: rgba(110,153,54,0.85); /* Green */
+        background-color: rgba(110,153,54,0.85); 
     }
     .news-and-blog .onthego {
-        background-color: rgba(44,120,185,0.85); /* Blue */
+        background-color: rgba(44,120,185,0.85); 
     }
     .about-us .onthego {
-        background-color: rgba(111,86,134,0.85); /* Purple */
-    }
+        background-color: rgba(111,86,134,0.85); 
+    }*/
     /*.research .onthego {
-        background-color: rgba(210,181,87,0.85); /* Pale Yellow
+        background-color: rgba(210,181,87,0.85); 
     }*/
 .navbar-inner {
     padding: 0;
