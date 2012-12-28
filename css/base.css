@@ -139,18 +139,33 @@ header {
     .the-platform header {
         background-color: rgb(213,175,60); /* Yellow */
         background-color: rgb(100,100,100); /* Grey */
+        background: rgb(100,100,100) url(../img/redrocks2.jpg) top left repeat;
+        background-size: cover;
+        padding: 300px;
     }
     .the-science header {
         background-color: rgb(100,100,100); /* Pink */
+        background: rgb(100,100,100) url(../img/biker.jpg) top left repeat;
+        background-size: cover;
+        padding: 300px;
     }
     .data-privacy header {
         background-color: rgb(100,100,100); /* Green */
+        background: rgb(100,100,100) url(../img/climber.jpg) top left repeat;
+        background-size: cover;
+        padding: 300px;
     }
     .news-and-blog header {
         background-color: rgb(44,120,185); /* Blue */
+        background: rgb(100,100,100) url(../img/hikers2.jpg) top left repeat;
+        background-size: cover;
+        padding: 300px;
     }
     .about-us header {
         background-color: rgb(100,100,100); /* Purple */
+        background: rgb(100,100,100) url(../img/mountain.jpg) top left repeat;
+        background-size: cover;
+        padding: 300px;
     }
     /*.research header {
         background-color: rgb(210,181,87); /* Pale Yellow
@@ -337,7 +352,7 @@ header {
         padding: 36px 34px 34px 34px;
         /*margin-top: -113px; causing problems in IE, FF, Opera */
         position: relative;
-        top: -114px;
+        top: -214px;
         /*margin-bottom: 45px;*/
     }
     #content h3 {
@@ -384,6 +399,7 @@ header {
     }
     .home #content .box {
         margin-bottom: 45px;
+        top:-114px;
     }
     .home #content h3 {
         line-height: 25px;
