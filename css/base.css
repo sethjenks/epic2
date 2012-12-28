@@ -660,12 +660,12 @@ header {
     .the-science .with-gingerio p {
         background: transparent url(../img/the_science-check.png) top left no-repeat;
     }
-.the-science div img {
+/*.the-science div img {
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.25);
     -moz-box-shadow: 0 0 10px rgba(0,0,0,0.52);
     box-shadow: 0 0 10px rgba(0,0,0,0.25);
     margin-bottom: 25px;
-}
+}*/
 .the-science .papers {
 
 }
